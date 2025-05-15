@@ -1,0 +1,31 @@
+/* Dark Mode Event Card Styles */
+.event-card {
+    background: #1c1c1c; /* Dark gray background */
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+    background-color: #2c2c2c; /* Slightly lighter gray */
+  }
+  
+  .event-card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-card-date {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
+  .event-card-description {
+    font-size: 1rem;
+  }
+  

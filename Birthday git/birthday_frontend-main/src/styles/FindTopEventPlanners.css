@@ -1,0 +1,62 @@
+/* src/styles/FindTopEventPlanners.css */
+
+.find-top-event-planners {
+  padding: 20px;
+  background: #121212; /* Dark background */
+  color: #ecf0f1; /* Light text color */
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.planner-card {
+  background: #1c1c1c;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 10px;
+}
+
+.planner-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.planner-name {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.planner-title {
+  font-size: 1.2rem;
+  margin-top: 5px;
+}
+
+.planner-description {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Additional responsive styles */
+@media (max-width: 1024px) {
+  .planner-card {
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .planner-card {
+    margin: 10px auto;
+  }
+}

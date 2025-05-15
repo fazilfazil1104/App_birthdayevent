@@ -1,0 +1,33 @@
+/* src/styles/Manager.css */
+.manager-container {
+    padding: 20px;
+  }
+  
+  .manager-stats {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manager-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .manager-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .manager-btn:hover {
+    background-color: #0056b3;
+  }
+  

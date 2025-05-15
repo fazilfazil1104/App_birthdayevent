@@ -1,0 +1,35 @@
+/* src/styles/EventPlannerProfile.css */
+.event-planner-profile {
+    background: #1c1c1c; /* Dark gray background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .planner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .planner-info {
+    color: #ecf0f1;
+  }
+  
+  .planner-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .planner-qualifications,
+  .planner-expertise,
+  .planner-reviews {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  

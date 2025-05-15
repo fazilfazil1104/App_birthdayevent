@@ -1,0 +1,113 @@
+/* Dark Mode Register Page Styles */
+.register-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: radial-gradient(circle at top left, #1b1b1b, #2c3e50);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: #ecf0f1; /* Light text color for dark background */
+    animation: pulse 2s infinite;
+  }
+  
+  .funky-heading {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 2.5rem;
+    color: #ff6347; /* Bright Tomato color */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    animation: wobble 1s infinite;
+  }
+  
+  .form-wrapper {
+    background: #1c2833; /* Slightly lighter dark background for form */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .funky-input {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .funky-label {
+    color: #f39c12; /* Bright color for labels */
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .funky-input-field {
+    border: 3px solid #f39c12; /* Border color matching label */
+    border-radius: 12px;
+    padding: 12px;
+    font-size: 1.1rem;
+    background: #34495e; /* Dark background for input fields */
+    color: #ecf0f1; /* Light text color for inputs */
+    transition: border-color 0.4s, box-shadow 0.4s;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .funky-input-field:focus {
+    border-color: #e74c3c; /* Bright color for focus state */
+    box-shadow: 0 0 12px rgba(231, 76, 60, 0.6);
+  }
+  
+  .funky-button {
+    background: linear-gradient(45deg, #e74c3c, #f39c12); /* Gradient for button */
+    border: none;
+    color: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.4s, transform 0.4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .funky-button:hover {
+    background: linear-gradient(45deg, #c0392b, #e67e22); /* Darker gradient on hover */
+    transform: scale(1.05);
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 25px rgba(255, 99, 71, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 25px rgba(255, 99, 71, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 25px rgba(255, 99, 71, 0.5);
+    }
+  }
+  
+  @keyframes wobble {
+    0% {
+      transform: rotate(0deg);
+    }
+    15% {
+      transform: rotate(-5deg);
+    }
+    30% {
+      transform: rotate(5deg);
+    }
+    45% {
+      transform: rotate(-3deg);
+    }
+    60% {
+      transform: rotate(3deg);
+    }
+    75% {
+      transform: rotate(-1deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  

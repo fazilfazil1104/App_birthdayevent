@@ -1,0 +1,309 @@
+{
+  "users": [
+    {
+      "id": "0bcc",
+      "name": "user1",
+      "email": "user1@example.com",
+      "password": "password1"
+    },
+    {
+      "id": "1ceb",
+      "name": "harshan",
+      "email": "aa@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "b530",
+      "name": "meghan",
+      "email": "meghan@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "e703",
+      "name": "jk",
+      "email": "jk@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "f775",
+      "name": "fazil",
+      "email": "zil@gmail.com",
+      "password": "123"
+    }
+  ],
+  "admins": [
+    {
+      "id": "a1b2",
+      "name": "admin1",
+      "email": "admin1@example.com",
+      "password": "password1"
+    },
+    {
+      "id": "a2b3",
+      "name": "admin2",
+      "email": "admin2@example.com",
+      "password": "password2"
+    }
+  ],
+  "planners": [
+    {
+      "id": "1",
+      "name": "Seo-Jin",
+      "title": "Event Planner",
+      "description": "Specializing in birthday parties and corporate events.",
+      "rating": "4.8",
+      "image": "/images/seo.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Niggesh",
+      "title": "Event Coordinator",
+      "description": "Expert in organizing large-scale celebrations and weddings.",
+      "rating": "4.7",
+      "image": "/images/niggesh.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Tate A",
+      "title": "Birthday Specialist",
+      "description": "Creative and detail-oriented birthday event planner.",
+      "rating": "4.6",
+      "image": "/images/tate.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Leo",
+      "title": "Event Consultant",
+      "description": "Provides expert advice and planning services for diverse events.",
+      "rating": "4.5",
+      "image": "/images/leo.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Sarah Wilson",
+      "title": "Celebration Organizer",
+      "description": "Focuses on creating personalized and memorable celebrations.",
+      "rating": "4.9",
+      "image": "/images/sarah.jpg"
+    },
+    {
+      "id": "6",
+      "name": "David Lee",
+      "title": "Event Designer",
+      "description": "Specializes in designing unique and stylish events.",
+      "rating": "4.7",
+      "image": "/images/david.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Ananthan",
+      "title": "Party Planner",
+      "description": "Experienced in organizing fun and engaging birthday parties.",
+      "rating": "4.6",
+      "image": "/images/ananthan.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Tripti",
+      "title": "Event Coordinator",
+      "description": "Ensures smooth execution of events with a keen eye for detail.",
+      "rating": "4.8",
+      "image": "/images/tripti.jpg"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "name": "AATHI PRASANNA A K",
+      "email": "aa@gmail.com",
+      "phone": "6369282843",
+      "date": "2024-07-26",
+      "details": "Birthday party",
+      "plannerId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Miracle Workers",
+      "email": "admin1@example.com",
+      "phone": "6369282843",
+      "date": "2024-07-20",
+      "details": "Corporate event",
+      "plannerId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Z",
+      "email": "admin2@example.com",
+      "phone": "6369282843",
+      "date": "2024-07-12",
+      "details": "Meeting",
+      "plannerId": "2"
+    },
+    {
+      "id": "4",
+      "name": "AATHI PRASANNA A K",
+      "email": "727722euai001@skcet.ac.in",
+      "phone": "6369282843",
+      "date": "2024-07-26",
+      "details": "Wedding celebration",
+      "plannerId": "8"
+    },
+    {
+      "id": "726a",
+      "name": "AATHI PRASANNA A K",
+      "email": "aa@gmail.com",
+      "phone": "6369282843",
+      "date": "2024-07-13",
+      "details": "fswf",
+      "plannerId": "3"
+    },
+    {
+      "id": "691a",
+      "name": "z",
+      "email": "admin2@example.com",
+      "phone": "6369282843",
+      "date": "2024-07-18",
+      "details": "3434",
+      "plannerId": "1"
+    },
+    {
+      "id": "9ea2",
+      "name": "AATHI PRASANNA A K",
+      "email": "727722euai001@skcet.ac.in",
+      "phone": "6369282843",
+      "date": "2024-07-25",
+      "details": "wdwd",
+      "plannerId": "2"
+    },
+    {
+      "id": "6ced",
+      "name": "AATHI PRASANNA A K",
+      "email": "727722euai054@skcet.ac.in",
+      "phone": "6369282843",
+      "date": "2024-07-31",
+      "details": "gsgsr",
+      "plannerId": "8"
+    },
+    {
+      "name": "Aathi",
+      "email": "727722euai054@skcet.ac.in",
+      "phone": "2222",
+      "date": "2024-08-23",
+      "details": "222",
+      "plannerId": "5",
+      "id": "FwCxbX-"
+    },
+    {
+      "name": "AATHI PRASANNA A K",
+      "email": "727722euai001@skcet.ac.in",
+      "phone": "222222",
+      "date": "2024-08-29",
+      "details": "sdsfwf",
+      "plannerId": "6",
+      "id": "zKscxC6"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "reviewer": "John Doe",
+      "rating": "5",
+      "comment": "Outstanding service! Highly recommend.",
+      "plannerId": "1"
+    },
+    {
+      "id": "2",
+      "reviewer": "Jane Smith",
+      "rating": "4",
+      "comment": "Very good planner, but a bit pricey.",
+      "plannerId": "2"
+    },
+    {
+      "id": "263c",
+      "reviewer": "chobe",
+      "rating": "4",
+      "comment": "leoooooooo.......leooooooo",
+      "plannerId": "4"
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "cardNumber": "**** **** **** 1234",
+      "cardExpiry": "12/24",
+      "cardCvc": "***",
+      "amount": 100,
+      "success": true
+    },
+    {
+      "id": "a667",
+      "cardNumber": "2334 2233 2323 3554",
+      "cardExpiry": "09/27",
+      "cardCvc": "422",
+      "amount": "12200"
+    },
+    {
+      "id": "a2c0",
+      "cardNumber": "2334 2233 2323 3554",
+      "cardExpiry": "09/27",
+      "cardCvc": "422",
+      "amount": "12200"
+    },
+    {
+      "id": "964c",
+      "cardNumber": "2334 2233 2323 3554",
+      "cardExpiry": "09/27",
+      "cardCvc": "422",
+      "amount": "12200"
+    },
+    {
+      "id": "7788",
+      "cardNumber": "22232",
+      "cardExpiry": "332",
+      "cardCvc": "3232",
+      "amount": "23232"
+    },
+    {
+      "id": "e519",
+      "cardNumber": "22232",
+      "cardExpiry": "332",
+      "cardCvc": "3232",
+      "amount": "23232"
+    },
+    {
+      "id": "02e0",
+      "cardNumber": "22232",
+      "cardExpiry": "332",
+      "cardCvc": "3232",
+      "amount": "23232"
+    },
+    {
+      "id": "f39d",
+      "cardNumber": "4545",
+      "cardExpiry": "53545",
+      "cardCvc": "5454",
+      "amount": "453"
+    },
+    {
+      "id": "c75b",
+      "cardNumber": "1234 5678 8664 3232",
+      "cardExpiry": "09/24",
+      "cardCvc": "234",
+      "amount": "999999"
+    },
+    {
+      "id": "fe77",
+      "cardNumber": "2323 244 2424 ",
+      "cardExpiry": "424 ",
+      "cardCvc": "424 ",
+      "amount": "42424"
+    },
+    {
+      "cardNumber": "de",
+      "cardExpiry": "fwf",
+      "cardCvc": "fwf",
+      "amount": "22222",
+      "id": "hx-zMit"
+    }
+  ]
+}

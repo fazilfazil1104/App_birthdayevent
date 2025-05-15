@@ -1,0 +1,125 @@
+/* src/styles/BookingPage.css */
+
+.booking-page {
+  background-color: #f4f4f9;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-page h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.booking-form,
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  color: #555;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submit-button {
+  padding: 12px 20px;
+  font-size: 1.1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  align-self: center;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:active {
+  transform: scale(0.98);
+}
+
+.planner-details {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.planner-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.planner-details h3 {
+  color: #333;
+  font-size: 1.8em;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+.planner-details p {
+  color: #777;
+  font-size: 1.1em;
+}
+
+.rating {
+  color: #ffcc00;
+  font-size: 1.5em;
+}
+
+.review {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.review h4 {
+  margin: 0 0 5px;
+  color: #333;
+  font-size: 1.2em;
+}
+
+.review p {
+  margin: 5px 0 0;
+  color: #555;
+}

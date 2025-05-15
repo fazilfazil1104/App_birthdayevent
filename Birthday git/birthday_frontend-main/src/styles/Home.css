@@ -1,0 +1,215 @@
+/* src/styles/Home.css */
+
+/* Dark Mode Home Page Styles */
+.home-container {
+  color: #ecf0f1;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background: #121212; /* Black background */
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #1c1c1c; /* Dark gray background */
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  animation: fadeIn 1s ease-out;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  animation: fadeInUp 1s 0.5s ease-out;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-cta-button,
+.hero-dashboard-button,
+.hero-admin-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.hero-cta-button {
+  background-color: #ff6f61; /* Accent color */
+  color: #121212; /* Black text */
+  margin-right: 10px; /* Spacing between buttons */
+}
+
+.hero-cta-button:hover {
+  background-color: #ff5a3f; /* Darker accent color */
+  transform: scale(1.05);
+}
+
+.hero-dashboard-button {
+  background-color: #3498db; /* Blue color */
+  color: #ffffff; /* White text */
+  margin-right: 10px; /* Spacing between buttons */
+}
+
+.hero-dashboard-button:hover {
+  background-color: #2980b9; /* Darker blue color */
+  transform: scale(1.05);
+}
+
+.hero-admin-button {
+  background-color: #e74c3c; /* Red color */
+  color: #ffffff; /* White text */
+}
+
+.hero-admin-button:hover {
+  background-color: #c0392b; /* Darker red color */
+  transform: scale(1.05);
+}
+
+/* Features Section */
+.features-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.feature-card {
+  background: #1c1c1c; /* Dark gray background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s;
+  animation: fadeInUp 1s ease-out;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 1.1rem;
+}
+
+.feature-card:hover {
+  transform: scale(1.05);
+  background-color: #2c2c2c; /* Slightly lighter gray */
+}
+
+/* About Section */
+.about-section {
+  background: #1c1c1c; /* Dark gray background */
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.about-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Testimonial Section */
+.testimonial-section {
+  background: #1c1c1c; /* Dark gray background */
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}
+
+.testimonial-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.testimonial-card {
+  background: #2c2c2c; /* Slightly lighter gray */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+
+.testimonial-text {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Contact Section */
+.contact-section {
+  background: #2c2c2c; /* Slightly lighter gray */
+  padding: 30px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  font-size: 1.2rem;
+}
+
+.contact-description a {
+  color: #ff6f61; /* Accent color */
+  text-decoration: none;
+}
+
+.contact-description a:hover {
+  text-decoration: underline;
+}
+
+/* Keyframes for Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
